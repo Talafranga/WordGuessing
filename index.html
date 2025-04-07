@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kelime Tahmin Oyunu</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Kelime Tahmin Oyunu</h1>
+        
+        <div id="difficultySelection" class="difficulty-selection">
+            <button id="difficultyButton" class="difficulty-button">Zorluk Seviyesi Seç</button>
+            <div id="difficultyOptions" class="difficulty-options hidden">
+                <button id="easyButton" class="difficulty-option" data-level="easy">Kolay</button>
+                <button id="mediumButton" class="difficulty-option" data-level="medium">Orta</button>
+                <button id="hardButton" class="difficulty-option" data-level="hard">Zor</button>
+            </div>
+        </div>
+        
+        <div class="attempts-counter">Deneme Sayısı: <span id="attempts">0</span></div>
+        
+        <div class="word-container" id="wordContainer">
+        </div>
+        
+        <div class="word-meaning" id="wordMeaning">
+        </div>
+        
+        <div class="success-message" id="successMessage">
+        </div>
+        
+        <div class="guess-input">
+            <button id="guessButton">Tahmin Et</button>
+        </div>
+        
+        <button id="newGameButton">Yeni Oyun</button>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
