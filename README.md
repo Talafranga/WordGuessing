@@ -2,6 +2,10 @@
 
 Bu proje, kelime tahmin etmeye dayalı interaktif bir web tabanlı oyundur. Farklı zorluk seviyelerinde Türkçe kelimeler içeren, kullanıcı dostu bir arayüze sahip bir uygulamadır.
 
+## Live Demo
+
+Oyunun canlı demosuna buradan erişebilirsiniz: [Kelime Tahmin Oyunu](https://talafranga.github.io/WordGuessing/)
+
 ## Oyun Hakkında
 
 Kelime Tahmin Oyunu, kullanıcının belirli bir kelimeyi, ipucu olarak verilen anlamından yola çıkarak tahmin etmeye çalıştığı bir bulmaca oyunudur. Üç farklı zorluk seviyesinde (Kolay, Orta, Zor) kelimeler içerir.
@@ -95,6 +99,10 @@ Kelime Tahmin Oyunu, JavaScript, HTML ve CSS becerilerini geliştirmek ve Türk�
 # Word Guessing Game
 
 This project is an interactive web-based game focused on word guessing. It features a user-friendly interface with Turkish words at different difficulty levels.
+
+## Live Demo
+
+You can access the live demo of the game here: [Word Guessing Game](https://talafranga.github.io/WordGuessing/)
 
 ## About the Game
 
